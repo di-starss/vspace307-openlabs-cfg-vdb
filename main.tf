@@ -1,8 +1,7 @@
-//
-// OPENLABS/CFG/VDB
-//
+/**
 
-/*
+    $ OPENLABS/CFG/VDB, v.1.1 2021/10/11 12:36 Exp @di $
+
     // base
     variable "cfg_project" { default = "vdb" }
 
@@ -39,7 +38,8 @@
     variable "cfg_volume_type_ams_ssd_6" { default = "ams-ssd-rack-6" }
     variable "cfg_volume_type_ldn_ssd_17" { default = "ldn-ssd-rack-17" }
     variable "cfg_volume_type_ldn_ssd_18" { default = "ldn-ssd-rack-18" }
-*/
+    
+**/
 
 variable "api_url" {}
 variable "api_admin_password" {}
